@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body><!--
+<h1 th:text="${data.name}">展示的内容</h1><br>
+年龄：<span th:text="${data.age}">内容</span><br>-->
+<script type="text/javascript" th:src="@{/js/jquery=3.4.1.js}"></script>
+<div th:object="${data2}">
+    编号：<span th:text="*{id}"></span>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#btn").click(function () {
+            alert($("#usr").val())
+        })
+
+    })
+</script>
+<input type="text" id="usr" value="asgd">
+<input type="button" id="btn" value="开关">
+<a href="http://www.baidu.com">跳转百度</a><br>
+<a th:href="@{http://www.baidu.com}">百度2</a>
+<a th:href="@{/stu/ins3}">百度2</a>
+
+<a th:href="@{'/stu?name='+${data2.name}+'&age='+${data2.age}}">as</a>
+<a th:href="@{/stu(id=${data2.id},name=${data2.name})}">as</a>
+
+</body>
+</html>

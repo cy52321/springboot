@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ch1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubboconsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubboprovider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thymeleaf2/src/main/java" charset="UTF-8" />
+  </component>
+</project>

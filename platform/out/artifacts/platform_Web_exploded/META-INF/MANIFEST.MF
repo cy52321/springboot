@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: chenyi
+Build-Jdk: 1.8.0_271
+Implementation-Title: platform
+Implementation-Version: 1.0.0
+Implementation-Vendor-Id: com.cheny.springboot
+Main-Class: ${start-class}
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch1" />
+        <module name="thymeleaf2" />
+        <module name="thymeleaf" />
+        <module name="dubboprovider" />
+        <module name="interface1" />
+        <module name="ch3" />
+        <module name="ch5" />
+        <module name="dubboconsumer" />
+        <module name="ch4" />
+        <module name="ch2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch1" target="1.8" />
+      <module name="ch2" target="1.8" />
+      <module name="ch3" target="1.8" />
+      <module name="ch4" target="1.8" />
+      <module name="ch5" target="1.8" />
+      <module name="dubboconsumer" target="1.8" />
+      <module name="dubboprovider" target="1.8" />
+      <module name="interface1" target="1.5" />
+      <module name="thymeleaf" target="1.8" />
+      <module name="thymeleaf2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ch1" options="-parameters" />
+      <module name="ch2" options="-parameters" />
+      <module name="ch3" options="-parameters" />
+      <module name="ch4" options="-parameters" />
+      <module name="ch5" options="-parameters" />
+      <module name="dubboconsumer" options="-parameters" />
+      <module name="dubboprovider" options="-parameters" />
+      <module name="thymeleaf" options="-parameters" />
+      <module name="thymeleaf2" options="-parameters" />
+    </option>
+  </component>
+</project>

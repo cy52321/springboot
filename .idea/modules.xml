@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch1/ch1.iml" filepath="$PROJECT_DIR$/ch1/ch1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch2/ch2.iml" filepath="$PROJECT_DIR$/ch2/ch2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch3/ch3.iml" filepath="$PROJECT_DIR$/ch3/ch3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch4/ch4.iml" filepath="$PROJECT_DIR$/ch4/ch4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch5/ch5.iml" filepath="$PROJECT_DIR$/ch5/ch5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboconsumer/dubboconsumer.iml" filepath="$PROJECT_DIR$/dubboconsumer/dubboconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboprovider/dubboprovider.iml" filepath="$PROJECT_DIR$/dubboprovider/dubboprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface/interface1.iml" filepath="$PROJECT_DIR$/interface/interface1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaf2/thymeleaf2.iml" filepath="$PROJECT_DIR$/thymeleaf2/thymeleaf2.iml" />
+    </modules>
+  </component>
+</project>

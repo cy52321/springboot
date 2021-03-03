@@ -1,0 +1,105 @@
+2021-02-01 00:05:50,662 [INFO ] [http-nio-8855-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:05:50,694 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:05:50,716 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 21 ms
+2021-02-01 00:05:54,644 [INFO ] [http-nio-8855-exec-4] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2021-02-01 00:05:55,426 [INFO ] [http-nio-8855-exec-4] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2021-02-01 00:09:05,063 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 55] Starting Ch5Application using Java 1.8.0_271 on DESKTOP-6JTQ43H with PID 8488 (C:\Users\chenyi\Desktop\homejava\springboot\platform\target\classes started by chenyi in C:\Users\chenyi\Desktop\homejava\springboot\platform)
+2021-02-01 00:09:05,092 [INFO ] [main] com.cheny.springboot.Ch5Application [SpringApplication.java : 660] No active profile set, falling back to default profiles: default
+2021-02-01 00:09:07,809 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 250] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 00:09:07,818 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 128] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 00:09:08,159 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 188] Finished Spring Data repository scanning in 149 ms. Found 0 Redis repository interfaces.
+2021-02-01 00:09:17,325 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8855 (http)
+2021-02-01 00:09:17,637 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:09:17,641 [INFO ] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2021-02-01 00:09:17,643 [INFO ] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 00:09:17,652 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-02-01 00:09:17,653 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-01 00:09:17,655 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-01 00:09:17,796 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-01 00:09:20,870 [INFO ] [main] org.apache.jasper.servlet.TldScanner [DirectJDKLog.java : 173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-02-01 00:09:20,874 [INFO ] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2021-02-01 00:09:20,875 [INFO ] [main] o.s.b.web.servlet.context.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 289] Root WebApplicationContext: initialization completed in 15552 ms
+2021-02-01 00:09:24,469 [INFO ] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:09:26,557 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:09:26,610 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8855 (http) with context path ''
+2021-02-01 00:09:26,643 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 61] Started Ch5Application in 25.926 seconds (JVM running for 31.678)
+2021-02-01 00:09:48,902 [INFO ] [http-nio-8855-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:09:48,903 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:09:48,905 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2021-02-01 00:10:48,284 [INFO ] [http-nio-8855-exec-10] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2021-02-01 00:10:49,206 [INFO ] [http-nio-8855-exec-10] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2021-02-01 00:22:01,334 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 55] Starting Ch5Application using Java 1.8.0_271 on DESKTOP-6JTQ43H with PID 12556 (C:\Users\chenyi\Desktop\homejava\springboot\platform\target\classes started by chenyi in C:\Users\chenyi\Desktop\homejava\springboot\platform)
+2021-02-01 00:22:01,338 [INFO ] [main] com.cheny.springboot.Ch5Application [SpringApplication.java : 660] No active profile set, falling back to default profiles: default
+2021-02-01 00:22:05,411 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 250] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 00:22:05,414 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 128] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 00:22:05,677 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 188] Finished Spring Data repository scanning in 158 ms. Found 0 Redis repository interfaces.
+2021-02-01 00:22:14,888 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8855 (http)
+2021-02-01 00:22:15,102 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:22:15,109 [INFO ] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2021-02-01 00:22:15,114 [INFO ] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 00:22:15,126 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-02-01 00:22:15,130 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-01 00:22:15,134 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-01 00:22:16,884 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-01 00:22:20,574 [INFO ] [main] org.apache.jasper.servlet.TldScanner [DirectJDKLog.java : 173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-02-01 00:22:20,677 [INFO ] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2021-02-01 00:22:20,679 [INFO ] [main] o.s.b.web.servlet.context.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 289] Root WebApplicationContext: initialization completed in 18829 ms
+2021-02-01 00:22:24,094 [INFO ] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:22:26,312 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:22:26,399 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8855 (http) with context path ''
+2021-02-01 00:22:26,436 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 61] Started Ch5Application in 27.407 seconds (JVM running for 30.912)
+2021-02-01 00:22:33,675 [INFO ] [http-nio-8855-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:22:33,675 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:22:33,677 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 2 ms
+2021-02-01 00:22:39,084 [INFO ] [http-nio-8855-exec-3] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2021-02-01 00:22:39,619 [INFO ] [http-nio-8855-exec-3] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2021-02-01 00:36:13,335 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 55] Starting Ch5Application using Java 1.8.0_271 on DESKTOP-6JTQ43H with PID 13684 (C:\Users\chenyi\Desktop\homejava\springboot\platform\target\classes started by chenyi in C:\Users\chenyi\Desktop\homejava\springboot\platform)
+2021-02-01 00:36:13,395 [INFO ] [main] com.cheny.springboot.Ch5Application [SpringApplication.java : 660] No active profile set, falling back to default profiles: default
+2021-02-01 00:36:29,315 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 250] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 00:36:29,331 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 128] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 00:36:30,177 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 188] Finished Spring Data repository scanning in 259 ms. Found 0 Redis repository interfaces.
+2021-02-01 00:37:04,492 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8855 (http)
+2021-02-01 00:37:04,798 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:37:04,799 [INFO ] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2021-02-01 00:37:04,800 [INFO ] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 00:37:04,803 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-02-01 00:37:04,920 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-01 00:37:04,921 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-01 00:37:06,125 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-01 00:37:10,522 [INFO ] [main] org.apache.jasper.servlet.TldScanner [DirectJDKLog.java : 173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-02-01 00:37:10,718 [INFO ] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2021-02-01 00:37:10,721 [INFO ] [main] o.s.b.web.servlet.context.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 289] Root WebApplicationContext: initialization completed in 55964 ms
+2021-02-01 00:37:18,510 [INFO ] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:37:27,900 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:37:28,109 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8855 (http) with context path ''
+2021-02-01 00:37:28,242 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 61] Started Ch5Application in 98.541 seconds (JVM running for 126.165)
+2021-02-01 00:37:32,873 [INFO ] [http-nio-8855-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:37:32,875 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:37:32,879 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 3 ms
+2021-02-01 00:37:33,410 [INFO ] [http-nio-8855-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2021-02-01 00:37:35,730 [INFO ] [http-nio-8855-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2021-02-01 00:54:09,854 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 55] Starting Ch5Application using Java 1.8.0_271 on DESKTOP-6JTQ43H with PID 12464 (C:\Users\chenyi\Desktop\homejava\springboot\platform\target\classes started by chenyi in C:\Users\chenyi\Desktop\homejava\springboot\platform)
+2021-02-01 00:54:09,863 [INFO ] [main] com.cheny.springboot.Ch5Application [SpringApplication.java : 660] No active profile set, falling back to default profiles: default
+2021-02-01 00:54:13,922 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 250] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 00:54:13,927 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 128] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 00:54:13,961 [INFO ] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 188] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2021-02-01 00:54:16,633 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8855 (http)
+2021-02-01 00:54:16,660 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:54:16,661 [INFO ] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2021-02-01 00:54:16,661 [INFO ] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-01 00:54:16,663 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-02-01 00:54:16,663 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-01 00:54:16,664 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-01 00:54:16,831 [INFO ] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-01 00:54:17,748 [INFO ] [main] org.apache.jasper.servlet.TldScanner [DirectJDKLog.java : 173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-02-01 00:54:17,766 [INFO ] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2021-02-01 00:54:17,766 [INFO ] [main] o.s.b.web.servlet.context.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 289] Root WebApplicationContext: initialization completed in 7491 ms
+2021-02-01 00:54:19,517 [INFO ] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 181] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 00:54:22,497 [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8855"]
+2021-02-01 00:54:22,584 [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8855 (http) with context path ''
+2021-02-01 00:54:22,616 [INFO ] [main] com.cheny.springboot.Ch5Application [StartupInfoLogger.java : 61] Started Ch5Application in 17.208 seconds (JVM running for 31.492)
+2021-02-01 00:54:46,605 [INFO ] [http-nio-8855-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 00:54:46,606 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2021-02-01 00:54:46,609 [INFO ] [http-nio-8855-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 3 ms
+2021-02-01 00:54:46,807 [INFO ] [http-nio-8855-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2021-02-01 00:54:47,926 [INFO ] [http-nio-8855-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.

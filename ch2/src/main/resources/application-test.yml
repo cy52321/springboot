@@ -1,0 +1,4 @@
+server:
+  port: 8883
+  servlet:
+    context-path: /sp2
